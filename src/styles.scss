@@ -1,7 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./styles/variables";
+
 html,
 body,
-p{
-    color:$main-text-color;
+p {
+  color: $main-text-color;
+}
+
+.Apartment {
+  color: red;
+}
+
+.House {
+  color: blue;
 }

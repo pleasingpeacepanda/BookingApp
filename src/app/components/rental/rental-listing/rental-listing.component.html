@@ -2,9 +2,9 @@
   <section id="rentalListing">
     <h1 class="title">Your Home All Around the World</h1>
     <div class="row">
-    <div class='col-md-3 col-xs-6' *ngFor="let rental of rentals">
-    <app-rentallistitem [CURRENTrental]="rental"></app-rentallistitem>
-        </div>
+      <div class='col-md-3 col-xs-6' *ngFor="let rental of rentals">
+        <app-rentallistitem [rental]="rental"></app-rentallistitem>
+      </div>
     </div>
   </section>
 </div>

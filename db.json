@@ -1,0 +1,55 @@
+{
+  "rentals": [{
+      "id": 1,
+      "title": "Central Apartment",
+      "city": "New york",
+      "street": "Times Square",
+      "category": "Apartment",
+      "image": "https://s-ec.bstatic.com/images/hotel/max1024x768/112/112216952.jpg",
+      "bedrooms": 3,
+      "description": "very nice apartment",
+      "dailyRate": 34,
+      "shared": false,
+      "createdAt": "25/12/2018"
+    },
+    {
+      "id": 2,
+      "title": "YULU Apartment",
+      "city": "New York",
+      "street": "Times Square",
+      "category": "House",
+      "image": "http://www.hmc.ox.ac.uk/wp-content/uploads/2015/05/FLAT-3-APSLEY-COURT-2.jpg",
+      "bedrooms": 3,
+      "description": "very nice apartment",
+      "dailyRate": 34,
+      "shared": true,
+      "createdAt": "25/12/2018"
+    },
+    {
+      "id": 3,
+      "title": "Mid Apartment",
+      "city": "New York",
+      "street": "Times Square",
+      "category": "House",
+      "image": "https://thearchitectsdiary.com/wp-content/uploads/2017/02/3-room-flat-interior-design_Livingroom.jpg",
+      "bedrooms": 3,
+      "description": "very nice apartment",
+      "dailyRate": 34,
+      "shared": false,
+      "createdAt": "25/12/2018"
+    },
+    {
+      "id": 4,
+      "title": "Susi Apartment",
+      "city": "united states",
+      "street": "Times Square",
+      "category": "Apartment",
+      "image": "https://s-ec.bstatic.com/images/hotel/max1024x768/112/112216952.jpg",
+      "bedrooms": 3,
+      "description": "very nice apartment",
+      "dailyRate": 34,
+      "shared": false,
+      "createdAt": "25/12/2018"
+    }
+  ]
+}

@@ -11,6 +11,8 @@ export class RentalListingComponent implements OnInit {
   constructor(private rentalservice: RentalService) {}
 
   ngOnInit() {
-    this.rentals = this.rentalservice.getRentals();
+    this.rentalservice.getRentals().subscribe(res => {
+      this.rentals = res;
+    });
   }
 }
